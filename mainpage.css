@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.outbox{
+    border: solid 1px;
+    height:120px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 120px;
+}
+#box1{
+    width: 400px;
+}
+#box2{
+    width: 1250px;
+    background-color: #933993;
+    text-align:center;
+}
+#clgname{
+    color: hwb(207 11% 69%);
+    font-size: 60px;
+    
+
+}
+#text1{
+    font-size: 20px;
+}
+#scrolltext{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation{
+     border: solid 1px;
+     height:50px;
+}
+ul li{
+    border: solid 1px;
+    height:50px;
+    float:left;
+    width: 140px;
+    text-align: center;
+     line-height: 50px;
+     background-color: #10935af2;
+     position:relative;
+     margin-bottom: 1px;
+    margin-right: 1px;
+    border-radius: 6px;
+    }
+ul{
+    list-style:none;
+}
+ul li a{
+    color: navy;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+}
+ul li ul li{
+    width: 250px;
+    background-color: #d4c6d0;
+}
+ul li ul li ul li{
+    width:450px;
+    margin-left: 250px;
+}
+ul ul ul{
+    top:0px;
+}
+ ul li:hover{
+background-color: rgb(5, 104, 51);
+}
+ul li ul li:hover{
+    background-color:#933993;
+}
+ul li ul li ul li:hover{
+    background-color: rgb(31, 16, 170);
+}
+.arrow{
+    color:black;
+}
+.obox{
+    border:solid 1px;
+    height: 400px;
+    display:flex;
+    justify-content: space-between;
+
+}
+#in1,#in2,#in3{
+    border:solid 1px;
+    height: 400px;
+}
+#in1{
+    width:800px;
+    background-image: url(vgnt1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    animation-name: imageschanging;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imageschanging{
+    10%{
+        background-image: url(vgnt1.jpeg);
+    }
+    20%{
+        background-image: url(vgnt2.png);
+
+    }
+    30%{
+        background-image: url(vgnt3.jpeg);
+
+    }
+    40%{
+        background-image: url(vgnt4.jpeg);
+
+    }
+    50%{
+        background-image: url(vgnt5.jpeg);
+    }
+}
+#in2,#in3{
+    width:200px;
+}
+.out{
+    border:solid 1px;
+    height:170px;
+    background :black;
+}
+#logo{
+    padding-right: 123px;
+    background-color: black;
+
+}
